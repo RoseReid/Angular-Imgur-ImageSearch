@@ -1,0 +1,44 @@
+button {
+  border-radius: 4px;
+  height: 50px;
+  width: 200px;
+  background-color: #8cc63c;
+  text-align: center;
+  margin-top: 50px;
+  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat12.gif"), auto;
+  font-size: 25px;
+  font-family: serif;
+  color: white; }
+  button:hover {
+    background-color: #557923;
+    font-size: 170%;
+    transition: 0.2s; }
+
+#inputBox {
+  border-radius: 4px;
+  height: 50px;
+  width: 200px;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: serif;
+  color: black; }
+
+#imageContainer img {
+  width: 300px;
+  height: auto; }
+
+#imageContainer > div {
+  display: inline-block;
+  margin: 20px;
+  padding: 1px;
+  border: solid white 2px;
+  background-color: #8cc63c;
+  color: white;
+  font-family: serif;
+  font-weight: normal;
+  border-radius: 4px;
+  width: 300px;
+  height: auto; }
+
+body {
+  background-color: grey; }

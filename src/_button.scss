@@ -1,0 +1,29 @@
+	@import '_variables.scss';
+	@import '_mixins.scss';
+	
+
+
+button{
+	  border-radius: $border-radius-b;
+	  height: $bheight;
+	  width: $bwidth;
+	  background-color: $ninja-green;
+	  text-align: center;
+	  margin-top: $margin-top-input;
+	  cursor: $cat-cursor;
+	  @include font($font-size, $ninja-font, white);
+
+	  &:hover{
+	    	background-color: darken($ninja-green, 20%);
+	    	font-size: 170%;
+	  		transition: 0.2s;
+	  		}
+ 
+	}
+		#inputBox{
+			border-radius: $border-radius-b;
+			height: $bheight;
+		    width: $bwidth;
+		    margin-top: $margin-top-input;
+		    @include font($font-size, $ninja-font, black);
+		}

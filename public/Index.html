@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app="imgurApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Imgur</title>
+    <link rel="stylesheet" href="app.css" />
+    <script src="libs/angular.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-controller="ImgurListController">
+
+<input ng-model="inputValue" type="text" id="inputBox"  placeholder="enter text"> 
+   
+   <button  type="submit" ng-click="search()">Search Imgur</button>
+   <div id= "imageContainer">
+    <div ng-repeat = "image in images"> 
+      <img ng-src="{{image.link}}">
+      <div> nsfw: {{image.nsfw}}</div>
+      <div> title: {{image.title}}</div>
+      <div> link: {{image.link}}</div>
+    </div>
+   </div>
+
+
+  </body>
+</html>
+

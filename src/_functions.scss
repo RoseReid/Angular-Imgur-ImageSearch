@@ -1,0 +1,9 @@
+@import '_variables.scss';
+
+///////////////////////////////////////
+//image container and div - I just wanted to play around with a function.
+////////////////////////////////////////
+
+@function margin-calculation-function($margin-one, $margin-two){
+  @return ($margin-one + $margin-two)
+}

@@ -1,0 +1,25 @@
+@import '_variables.scss';
+
+
+///////////input box and search button////////
+@mixin size-box($bheight, $bwidth, $margin-top-input){
+  height: $bheight;
+  width: $bwidth;
+  margin-top: $margin-top-input;
+}
+
+////////image container 
+@mixin font($font-size, $ninja-font, $color) {
+  font-size: $font-size;
+  font-family: $ninja-font;
+  color: $color;
+}
+
+
+////////image container 
+@mixin size($image-pic-width, $image-pic-height) {
+  width: $image-pic-width;
+  height: $image-pic-height;
+}
+
+

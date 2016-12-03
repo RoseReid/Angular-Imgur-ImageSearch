@@ -1,0 +1,25 @@
+	@import '_variables.scss';
+	@import '_mixins.scss';
+	@import '_functions.scss';
+
+
+
+	#imageContainer{
+		img {
+		@include size($image-pic-width, $image-pic-height);
+
+		}
+
+		& > div {
+			display: inline-block;
+			margin: margin-calculation-function(10px, 10px);
+			padding: 1px;
+			border: $border;
+			background-color: $ninja-green;
+			color: $div-font-color; 
+			font-family: $ninja-font;
+			font-weight: $div-fontweight;
+			border-radius: $border-radius-b;
+			@include size($image-pic-width, $image-pic-height);
+		}
+	}
